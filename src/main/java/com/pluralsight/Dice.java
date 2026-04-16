@@ -10,7 +10,6 @@ public class Dice {
 
 
     public int roll() {
-
-        return (int) (Math.random() * 6 + 1);
+        return (int)(Math.random() * sides) + 1;
     }
 }
